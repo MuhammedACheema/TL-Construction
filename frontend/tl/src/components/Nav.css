@@ -1,0 +1,45 @@
+.Header {
+    background-color: white;
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    font-size: 2vmin;
+    color: rgb(173, 8, 8);
+    border-bottom: 2px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    height: 8vmin;
+    pointer-events: none;
+    margin-right: 1rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: rgb(173, 8, 8);
+    font-weight: bold;
+    margin: 0;
+}
+
+.links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.links li {
+    font-size: 1rem;
+    cursor: pointer;
+    color: rgb(173, 8, 8);
+    transition: color 0.3s ease;
+}
+
+.links li:hover {
+    color: rgb(120, 0, 0);
+    text-decoration: underline;
+}
