@@ -2,8 +2,19 @@ import React from "react";
 import home from "../images/home.jpg";
 import home2 from "../images/home2.jpg";
 import "./styling/Home.css";
+import { useHistory } from 'react-router-dom';
 
 function Home() {
+
+  const navigate = useHistory();
+  const handleClick = () => {
+    navigate.push('/projects');
+  };
+
+  const handleClick2 = () => {
+    navigate.push('/aboutus')
+  }
+
   return (
     <main className="container">
       <div className="imageSection">
@@ -28,8 +39,8 @@ function Home() {
             </p>
         </div>
         <div className="buttonGroup">
-            <button className="primaryButton">Look At Previous Projects</button>
-            <button className="secondaryButton">Learn More About Us</button>
+            <button className="primaryButton" onClick ={handleClick}>Look At Previous Projects</button>
+            <button className="secondaryButton" onClick = {handleClick2}>Learn More About Us</button>
         </div>
         </div>
 

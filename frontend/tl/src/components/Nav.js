@@ -10,8 +10,8 @@ function Nav() {
             </div>
             <h1>TL General Construction</h1>
             <ul className="links">
-                <li>Home</li>
-                <li>Contact Us</li>
+                <a href = "/">Home</a>
+                <a href ="/contact">Contact Us</a>
             </ul>
         </nav>
     );
