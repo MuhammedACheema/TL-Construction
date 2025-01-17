@@ -1,0 +1,45 @@
+.top {
+    display: flex; /* Enable flexbox */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Center horizontally */
+    color: white;
+    background-color: rgb(173, 8, 8);
+    padding: 2rem; /* Add padding for spacing */
+    margin-bottom: 3rem;
+    
+}
+
+.phone, .email {
+    background-color: white; /* Box background color */
+    border: 0.2rem solid #ccc; /* Optional: Add a border */
+    border-radius: 1rem; /* Rounded corners */
+    padding: 2rem; /* Space inside the box */
+    width: 30%; /* Responsive width relative to the container */
+    max-width: 25rem; /* Maximum width for larger screens */
+    min-width: 15rem; /* Minimum width for smaller screens */
+    text-align: center; /* Center text inside the box */
+    box-shadow: 0 0.4rem 0.6rem rgba(0, 0, 0, 0.1); /* Add a shadow */
+    color: rgb(173, 8, 8);
+    display: flex; /* Flexbox to center content inside */
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    flex-grow: 1; /* Allow boxes to grow equally */
+    height: 20%; /* Allow the height to adjust dynamically */
+    aspect-ratio: 4 / 3; /* Maintain consistent box proportions */
+    
+}
+
+.container {
+    display: flex; /* Use Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: stretch; /* Ensure all boxes have the same height */
+    height: 60vh; /* Height relative to the viewport */
+    gap: 2rem; /* Space between boxes */
+    flex-wrap: wrap; /* Stack boxes on smaller screens */
+}
+
+.screen{
+    background-color: #f3f3f3; /* Light background for contrast */
+}
