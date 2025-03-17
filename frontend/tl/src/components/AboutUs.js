@@ -52,7 +52,7 @@ function AboutUs(){
       <div className="section certifications">
         <h2>Certifications and Licenses</h2>
         <p>
-          List relevant certifications, licenses, or memberships that add credibility (e.g., OSHA-certified, LEED-certified, etc.).
+          OSHA-certified
         </p>
       </div>
 
@@ -71,10 +71,10 @@ function AboutUs(){
       </div>
 
       {/* Call to Action */}
-      <div className="section cta">
+        <div>
         <h2>Get in Touch</h2>
         <p>
-          Encourage visitors to get in touch by providing a link or button to the contact page, free consultation offers, or an inquiry form.
+        <a className="links" href ="/contact">Contact Us</a>
         </p>
       </div>
     </div>

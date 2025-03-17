@@ -1,3 +1,23 @@
 h2{
     color: rgb(173, 8, 8);
 }
+
+.links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.links a {
+    font-size: 1rem;
+    cursor: pointer;
+    color: rgb(173, 8, 8);
+    transition: color 0.3s ease;
+}
+
+.links a:hover {
+    color: rgb(12, 12, 0);
+    text-decoration: underline;
+}
