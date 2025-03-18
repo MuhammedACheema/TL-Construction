@@ -13,7 +13,7 @@
 
 .logo {
     height: 11vmin;
-    pointer-events: none;
+    pointer-events: auto;
     margin-right: 1rem;
 }
 
