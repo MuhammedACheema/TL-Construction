@@ -8,7 +8,7 @@ function Home() {
 
   const navigate = useHistory();
   const handleClick = () => {
-    navigate.push('/projects');
+    navigate.push('/project');
   };
 
   const handleClick2 = () => {

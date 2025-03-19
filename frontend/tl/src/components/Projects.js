@@ -1,8 +1,11 @@
 import React from "react";
 
-function Projects(){
+function Projects({images, description}){
     return(
-        <h1>Yurrr222</h1>
+        <div>
+            <img src={images} alt="//"/>
+            <p>{description}</p>
+       </div>
     );
 }
 
