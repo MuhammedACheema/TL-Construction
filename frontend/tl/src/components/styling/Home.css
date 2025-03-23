@@ -51,18 +51,7 @@ body, html {
   font-size: 1rem;
 }
 
-/* Testimonials */
-.testimonials {
-  margin-bottom: 2rem;
-  color: #444;
-}
 
-.testimonials blockquote {
-  font-style: italic;
-  margin-bottom: 1rem;
-  border-left: 4px solid #b30000;
-  padding-left: 1rem;
-}
 
 /* Services */
 .servicesSection {

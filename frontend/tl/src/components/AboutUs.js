@@ -12,13 +12,6 @@ function AboutUs() {
       </section>
 
       <section className="section">
-        <h2>Our Mission</h2>
-        <p>
-          To turn your vision into reality through craftsmanship, transparency, and care. We prioritize safety, quality, and long-term relationships with our clients — delivering work that exceeds expectations.
-        </p>
-      </section>
-
-      <section className="section">
         <h2>Services We Offer</h2>
         <p className="services-list">
           Siding · Painting · Interior & Exterior Remodeling · Steam Cleaning · Brick Pointing · Sheetrock · Roofing · Windows · Cement & Brick Work · Tiles
@@ -32,14 +25,7 @@ function AboutUs() {
 
       <section className="section">
         <h2>Where We Work</h2>
-        <p>We proudly serve all five boroughs of NYC and are open to projects in neighboring states. Reach out via our <a className="links" href="/contact">Contact Page</a> to get started.</p>
-      </section>
-
-      <section className="section">
-        <h2>Our Commitment</h2>
-        <p>
-          We deliver quality that lasts. Every project is built by experienced professionals using premium materials, and safety is always a top priority. Our team follows OSHA regulations and maintains strict quality standards throughout the entire process.
-        </p>
+        <p>We proudly serve all five boroughs of NYC and are open to projects in neighboring states. Reach out via our <a  href="/contact">Contact Page</a> to get started.</p>
       </section>
 
       <section className="section call-to-action">

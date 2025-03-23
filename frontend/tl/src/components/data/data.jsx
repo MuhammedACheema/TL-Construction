@@ -8,6 +8,7 @@ const workData = [
       description: "During this project we handled retiling the whole kitchen, as well as installing new cabinets. Giving this kitchen a more modern twist to it."
     },
     
+    
   ];
 
   export default workData;

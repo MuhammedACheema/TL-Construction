@@ -54,9 +54,14 @@
     margin-bottom: 1rem;
   }
   
-  .phone p, .email p {
+  .phone a, .email a {
     font-size: 1.1rem;
     color: #333;
     line-height: 1.6;
+    text-decoration: none; /* Remove underline */
   }
+
+  .phone a:hover, .email a:hover {
+    color: #b30000; /* Change color on hover (optional) */
+  } 
   

@@ -29,12 +29,6 @@ function Home() {
               <h2>High-Quality Craftsmanship</h2>
             </div>
 
-            <h2>What Our Customers Are Saying</h2>
-            <div className="testimonials">
-              <blockquote>"The team was professional and completed the work on time. Highly recommend!" - John D.</blockquote>
-              <blockquote>"Excellent quality and customer service. Will hire them again!" - Sarah T.</blockquote>
-            </div>
-
             <div className="servicesSection">
               <h2>SERVICES PROVIDED</h2>
               <p>
