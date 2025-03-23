@@ -107,7 +107,9 @@ body, html {
 }
 
 .primaryButton:hover {
-  background-color: #8c0000;
+  color: #b30000;
+  background-color: white;
+  border: 2px solid #b30000;
 }
 
 .secondaryButton {

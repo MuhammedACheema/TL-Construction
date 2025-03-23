@@ -14,9 +14,14 @@ function Nav() {
       </div>
 
       <div className="nav-actions">
+      <Link to= "/aboutus" className="contact-button">
+        About Us</Link>
+        <Link to= "/aboutus" className="contact-button">
+        Projects</Link>
         <Link to="/contact" className="contact-button">
           Contact Us
         </Link>
+        
       </div>
     </nav>
   );
