@@ -4,22 +4,22 @@ import logo from '../images/logo.png';
 import { Link } from "react-router-dom";
 
 function Nav() {
-    return (
-        <nav className="Header">
-            <div className="logo-section">
-                <Link to="/">
-                    <img className="logo" src={logo} alt="Company Logo" />
-                </Link>
-            </div>
+  return (
+    <nav className="Header">
+      <div className="brand">
+        <Link to="/" className="brand-link">
+          <img className="logo" src={logo} alt="Company Logo" />
+          <span className="brand-name">TL General Construction</span>
+        </Link>
+      </div>
 
-            <Link to="/aboutus">
-                <h1>TL General Construction</h1>
-            </Link>
-            <ul className="links">
-                <Link to="/contact">Contact Us</Link>
-            </ul>
-        </nav>
-    );
+      <div className="nav-actions">
+        <Link to="/contact" className="contact-button">
+          Contact Us
+        </Link>
+      </div>
+    </nav>
+  );
 }
 
 export default Nav;

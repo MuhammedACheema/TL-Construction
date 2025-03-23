@@ -1,84 +1,53 @@
 import React from 'react';
-import './styling/AboutUs.css'
+import './styling/AboutUs.css';
 
-function AboutUs(){
+function AboutUs() {
   return (
     <div className="about-us">
-      {/* Introduction */}
-      <div className="section introduction">
-        {/* <h1>TL General Contractor</h1>
-        <p>A brief statement summarizing the company's mission or expertise.</p> */}
+      <section className="section">
         <h2>Who We Are</h2>
         <p>
-        TL General Construction has been proudly serving the Bronx and surrounding areas since 2008. Specializing in residential and commercial construction, we offer a wide range of services, including renovations, new builds, and custom projects. With over 15 years of experience, we are committed to delivering high-quality workmanship and exceptional service to homeowners, businesses, and property managers in our community.
+          TL General Construction has proudly served the Bronx and surrounding areas since 2008. We specialize in residential and commercial construction, including renovations, custom builds, and more. With 15+ years of experience, we’re committed to high-quality workmanship and exceptional service.
         </p>
-      </div>
+      </section>
 
-      {/* Mission Statement */}
-      <div className="section mission">
+      <section className="section">
         <h2>Our Mission</h2>
         <p>
-        At TL General Construction, our mission is to transform visions into reality by delivering exceptional construction services that prioritize quality, safety, and customer satisfaction. We are dedicated to building lasting relationships with our clients through integrity, transparency, and craftsmanship. By combining industry expertise with a commitment to excellence, we strive to create spaces that not only meet but exceed the expectations of homeowners and businesses in our community.
+          To turn your vision into reality through craftsmanship, transparency, and care. We prioritize safety, quality, and long-term relationships with our clients — delivering work that exceeds expectations.
         </p>
-      </div>
+      </section>
 
-      {/* Company History */}
-      <div className="section history">
-        <h2>Our History</h2>
-        <p>
-          Share the origin story: when and why the company was founded, major milestones, or how it has evolved over time.
-        </p>
-        <p>Mention key achievements or awards.</p>
-      </div>
-
-      {/* Services Offered */}
-      <div className="section services">
+      <section className="section">
         <h2>Services We Offer</h2>
-        <p>
-        SIDING - PAINTING - EXTERIOR & INTERIOR REMODELING - STEAM CLEANING - BRICK POINTING - SHEETROCK - ROOFING - WINDOWS - CEMENT & BRICK WORK - TILES.
+        <p className="services-list">
+          Siding · Painting · Interior & Exterior Remodeling · Steam Cleaning · Brick Pointing · Sheetrock · Roofing · Windows · Cement & Brick Work · Tiles
         </p>
-      </div>
+      </section>
 
-      {/* Team Introduction */}
-      <div className="section team">
-        <h2>Meet Our Team</h2>
-        <p>
-          Introduce the key members of the team, such as founders, project managers, or skilled workers.
-        </p>
-        <p>Include their expertise, experience, and a personal touch to humanize the business.</p>
-      </div>
+      <section className="section">
+        <h2>Certifications</h2>
+        <p>OSHA Certified. Fully Licensed & Insured.</p>
+      </section>
 
-      {/* Certifications and Licenses */}
-      <div className="section certifications">
-        <h2>Certifications and Licenses</h2>
-        <p>
-          OSHA-certified
-        </p>
-      </div>
-
-      {/* Geographic Area Served */}
-      <div className="section geography">
+      <section className="section">
         <h2>Where We Work</h2>
-        <p>We mainly work throughout NYC, but are willing to work in neighboring states and cities. For more info on these jobs please head to the contact page to schedule a call with us</p>
-      </div>
+        <p>We proudly serve all five boroughs of NYC and are open to projects in neighboring states. Reach out via our <a className="links" href="/contact">Contact Page</a> to get started.</p>
+      </section>
 
-      {/* Commitment to Quality and Safety */}
-      <div className="section quality-safety">
-        <h2>Our Commitment to Quality and Safety</h2>
+      <section className="section">
+        <h2>Our Commitment</h2>
         <p>
-        At TL General Construction, we ensure high-quality workmanship by employing experienced professionals, using premium materials, and adhering to rigorous industry standards on every project. Our team follows a meticulous approach, from thorough planning and precise execution to detailed quality checks at each phase of construction. Safety is at the core of our operations—we strictly comply with OSHA regulations, provide ongoing training for our staff, and maintain a secure work environment to protect both our team and clients. By combining craftsmanship with a commitment to safety, we deliver results that stand the test of time.
+          We deliver quality that lasts. Every project is built by experienced professionals using premium materials, and safety is always a top priority. Our team follows OSHA regulations and maintains strict quality standards throughout the entire process.
         </p>
-      </div>
+      </section>
 
-      {/* Call to Action */}
-        <div>
-        <h2>Get in Touch</h2>
-        <p>
-        <a className="links" href ="/contact">Contact Us</a>
-        </p>
-      </div>
+      <section className="section call-to-action">
+        <h2>Let’s Build Something Together</h2>
+        <a className="links" href="/contact">Get in Touch</a>
+      </section>
     </div>
   );
-};
+}
 
 export default AboutUs;
