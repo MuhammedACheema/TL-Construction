@@ -5,7 +5,7 @@ import data from "./data/data"
 const Project = () =>{
     const countries = data.map((x) =>
 
-        <Projects images={x.flag} description={x.funFact}/>
+        <Projects image1={x.img1} image2 = {x.img2} description={x.description}/>
       )
     return(
         <div>
