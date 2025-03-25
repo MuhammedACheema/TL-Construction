@@ -3,6 +3,8 @@ import "./styling/Nav.css";
 import logo from '../images/logo.png';
 import { Link } from "react-router-dom";
 
+
+
 function Nav() {
   return (
     <nav className="Header">

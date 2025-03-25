@@ -10,11 +10,17 @@
   font-family: 'Inter', sans-serif;
   border-bottom: 1px solid #e3e3e3;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+
+  /* Optional: Sticky Navbar */
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 
 .brand {
   display: flex;
   align-items: center;
+  flex-wrap: nowrap;
 }
 
 .brand-link {
@@ -33,12 +39,15 @@
   font-weight: 700;
   color: #b30000;
   white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .nav-actions {
   display: flex;
   align-items: center;
   gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .contact-button {
@@ -56,4 +65,47 @@
 .contact-button:hover {
   background-color: #b30000;
   color: white;
+}
+
+/* Tablet and small laptop responsiveness */
+@media (max-width: 768px) {
+  .Header {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .brand,
+  .nav-actions {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .brand-name {
+    font-size: 1.5rem;
+  }
+
+  .contact-button {
+    font-size: 0.9rem;
+    padding: 0.5rem 0.75rem;
+  }
+}
+
+/* Phone responsiveness */
+@media (max-width: 480px) {
+  .brand-name {
+    font-size: 1.25rem;
+  }
+
+  .contact-button {
+    font-size: 0.85rem;
+    padding: 0.4rem 0.6rem;
+  }
+
+  .logo {
+    height: 40px;
+    margin-right: 8px;
+  }
 }
