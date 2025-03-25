@@ -42,18 +42,20 @@
 @media (max-width: 768px) {
   .images-row {
     justify-content: center;
+    gap: 0.75rem;
   }
 
   .images-row img {
-    flex: 1 1 45%;
-    max-width: 45%;
-    min-width: 200px;
+    flex: 1 1 42%;
+    max-width: 42%;
+    min-width: 180px;
   }
 
   .description {
     font-size: 0.95rem;
   }
 }
+
 
 /* Phones and small screens */
 @media (max-width: 480px) {
@@ -67,8 +69,9 @@
   }
 
   .images-row img {
-    max-width: 100%;
-    flex: 1 1 100%;
+    flex: 1 1 45%;
+    max-width: 45%;
+    min-width: 140px;
   }
 
   .description {
@@ -77,3 +80,4 @@
     margin-top: 12px;
   }
 }
+

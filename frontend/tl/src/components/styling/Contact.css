@@ -40,11 +40,13 @@
   background-color: white;
   border-radius: 12px;
   padding: 2rem;
-  flex: 1 1 300px;
-  max-width: 360px;
+  max-width: 320px;
+  min-width: 280px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
   text-align: center;
   transition: transform 0.3s ease;
+  word-wrap: break-word;
+  word-break: break-word;
 }
 
 .phone:hover,
@@ -84,9 +86,11 @@
 
   .phone,
   .email {
-    flex: 1 1 45%;
-    max-width: 45%;
+    flex: 1 1 90%;
+    max-width: 90%;
     padding: 1.5rem;
+    word-wrap: break-word;
+    word-break: break-word;
   }
 }
 
@@ -120,6 +124,8 @@
     width: 100%;
     padding: 1.25rem;
     border-radius: 10px;
+    word-wrap: break-word;
+    word-break: break-word;
   }
 
   .phone h3,
