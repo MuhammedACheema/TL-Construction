@@ -13,21 +13,28 @@ body, html {
   padding: 2rem 1rem;
 }
 
-/* Image row (side by side) */
+/* Image row (side by side, responsive) */
 .imageRow {
   display: flex;
   justify-content: center;
   gap: 1rem;
   margin-bottom: 2rem;
+  flex-wrap: wrap;
 }
 
 .imageRow img {
-  width: 100%;
-  max-width: 48%;
+  flex: 1 1 45%;
+  max-width: 45%;
+  min-width: 250px;
   height: 250px;
   object-fit: cover;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.imageRow img:hover {
+  transform: scale(1.02);
 }
 
 /* Content section */
@@ -111,59 +118,16 @@ body, html {
   color: white;
 }
 
-/* Tablets and small laptops */
+/* Responsive tweaks (no column stack) */
 @media (max-width: 768px) {
-  .imageRow {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .imageRow img {
-    max-width: 100%;
-    height: auto;
-  }
-
   .perks {
     flex-direction: column;
     align-items: center;
   }
 
   .buttonGroup {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .servicesSection h2 {
-    font-size: 1.25rem;
-  }
-
-  .servicesSection p {
-    font-size: 0.9rem;
-  }
-}
-
-/* Phones and small screens */
-@media (max-width: 480px) {
-  .container {
-    padding: 1.5rem 1rem;
-  }
-
-  .perks h2 {
-    font-size: 0.95rem;
-    padding: 0.5rem 1rem;
-  }
-
-  .primaryButton,
-  .secondaryButton {
-    font-size: 0.9rem;
-    padding: 0.6rem 1rem;
-  }
-
-  .servicesSection h2 {
-    font-size: 1.1rem;
-  }
-
-  .servicesSection p {
-    font-size: 0.85rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
