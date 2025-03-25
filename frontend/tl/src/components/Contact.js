@@ -15,9 +15,10 @@ function Contact() {
                 <div className="container">
                     <div className="phone"> 
                         <h3><FaPhoneAlt /> Phone</h3>
-                        <a href="tel:+16465234179">Mobile: (646) 523-4179</a>
+                        <a href="tel:+16465234179" rel="noopener noreferrer">Mobile: (646) 523-4179</a>
+
                         <p></p>
-                        <a href="tel:+17188427083">Office: (718) 842-7083</a>
+                        <a href="tel:+17188427083" rel="noopener noreferrer">Office: (718) 842-7083</a>
                     </div>
                     <div className="email"> 
                         <h3><FaEnvelope /> Email</h3>

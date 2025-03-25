@@ -1,5 +1,5 @@
 import React from "react";
-import home from "../images/home.jpg";
+import home from "../images/home.jpeg";
 import home2 from "../images/home2.jpg";
 import "./styling/Home.css";
 import { useHistory } from 'react-router-dom';
